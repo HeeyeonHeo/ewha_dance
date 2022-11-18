@@ -374,6 +374,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0px 50px 50px 50px;
+  margin-bottom: 50px;
 }
 
 #history .container > h4 {
@@ -387,7 +388,7 @@ main {
 }
 
 #history .container .annual .box2 > ul .history-list {
-  margin-left: 45px;
+  margin-left: 25px;
 }
 
 #history .container .annual .box2 > ul li:first-child {
