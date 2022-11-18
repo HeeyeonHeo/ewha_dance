@@ -180,8 +180,13 @@ a {
 }
 
 /* 공지사항 */
+#main-notice-scgedule .container {
+  display: flex;
+  justify-content: space-between;
+}
 
 #main-notice-scgedule .container .notice-box {
+  outline: 1px solid #444;
   width: 688px;
   height: 250px;
   padding: 26px 20px;
@@ -211,8 +216,12 @@ a {
   padding: 10px 15px;
   position: relative;
   top: 15px;
-  left: 590px;
+  left: 465px;
   cursor: pointer;
+}
+
+#main-notice-scgedule .container .notice-box .notice-board .main-board-table tbody {
+  outline: 1px solid red;
 }
 
 #main-notice-scgedule .container .notice-box .notice-board .main-board-table tbody > tr td {
@@ -246,10 +255,16 @@ a {
 
 
 /* 학사일정 */
-#main-schedule {
-padding-left: 30px;
-display: flex;
-justify-content: space-between;
+.main-schedule-calandr {
+  width: 689px;
+  height: 250px;
+  padding: 10px 30px;
+}
+
+.main-calendar {
+  width: 204px;
+  height: 230px;
+
 }
 
 /* 연습실 예약 */
