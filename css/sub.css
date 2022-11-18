@@ -267,7 +267,7 @@ main {
 
 /* ::::::::::::::: 서브 개별 스타일 ::::::::::::::: */
 
-/* sub1-1 */
+/* sub1-2 */
 /* ##### section1 ##### */
 #sub1-2 .section1 {
   padding: 50px 0;
@@ -402,4 +402,49 @@ main {
   height: 15px;
   margin-top: 10px;
   margin-right: 10px;
+}
+
+/* ### sub 1-3 ### */
+
+/* 교수진 */
+
+#sub1-3 #professor .container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+#sub1-3 #professor .container .profile {
+  padding: 50px;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sub1-3 #professor .container .profile .profile-box {
+  width: 33.33%;
+  margin-bottom: 50px;
+}
+
+
+
+#sub1-3 #professor .container .profile .profile-box > ul {
+  list-style: disc;
+}
+
+#sub1-3 #professor .container .profile .profile-box > ul li:first-child {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#sub1-3 #professor .container .profile .profile-box > ul li:nth-child(2) {
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#sub1-3 #professor .container .profile .profile-box > ul .profile-list {
+  margin-left: 20px;
 }
